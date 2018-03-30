@@ -7,7 +7,7 @@ from urllib import unquote
 q = raw_input('Please enter your first search term: ')
 r = raw_input('Please enter your second search term: ')
 
-CONSUMER_KEY = 'nJOk5wozast5O3RbFv9UGTvIq'
+CONSUMER_KEY = 'nJOk5wozast5O3RbFv9UGTvIq' #user cridentials for API
 CONSUMER_SECRET = 'WeUeKW34j3bSX2kLue3CDMktXsqm5srJcbQQI4JUoFi9gjhahb'
 OAUTH_TOKEN = '3221044333-6KVX9DhynDjOvUMcYHlLOGNo2skOrwNZX0f6XqQ'
 OAUTH_TOKEN_SECRET = '1iTLokQESbT8LO0wJjaoCufKXEpDYbM3vvtgC5kdmlF9Y'
@@ -16,7 +16,7 @@ auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
 
 twitter_api = twitter.Twitter(auth=auth)
 
-count = 1000
+count = 1000 
 
 searchA = twitter_api.search.tweets(q=q, count=count) 
 statusesB = searchA['statuses']
