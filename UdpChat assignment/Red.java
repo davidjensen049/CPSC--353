@@ -22,7 +22,7 @@ import java.net.DatagramSocket;
 
 import java.net.InetAddress; //importing librarys
 
-class Red {
+class Red { //Red
   public static void main(String[] args) throws Exception {
 
     BufferedReader inFromUser = new BufferedReader(new InputStreamReader(System.in));

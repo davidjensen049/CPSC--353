@@ -1,6 +1,6 @@
 /**
 *  UDP Server Program
-*  Listens on a UDP port
+*  Listens on a UDP port 
 *  Receives a line of input from a UDP client
 *  Returns an upper case version of the line to the client
 *
@@ -14,7 +14,7 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 
-class UdpServer {
+class UdpServer { //UdpServer
   public static void main(String[] args) throws Exception {
     DatagramSocket serverSocket = null;
 

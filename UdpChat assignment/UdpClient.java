@@ -1,5 +1,5 @@
 /**
-*  UDP Client Program
+*  UDP Client Program 
 *  Connects to a UDP Server
 *  Receives a line of input from the keyboard and sends it to the server
 *  Receives a response from the server and displays it.
@@ -18,7 +18,7 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 
-class UdpClient {
+class UdpClient { //Client
   public static void main(String[] args) throws Exception {
 
     BufferedReader inFromUser = new BufferedReader(new InputStreamReader(System.in));

@@ -31,7 +31,7 @@ class ChatServer {
     DatagramPacket sendPacket;
     int state = 0;
 
-    try {
+    try { //attempt connect
       serverSocket = new DatagramSocket(9876);
     } catch (Exception e) {
       System.out.println("Failed to open UDP socket");
