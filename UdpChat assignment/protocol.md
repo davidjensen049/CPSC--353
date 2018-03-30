@@ -26,4 +26,4 @@
 3.  Wait for a message from a client.
     *  if the message is not "Goodbye" send it to the other client
     *  If the message is "Goodbye" send it to both clients.
-    *  Close the socket and exit.
+    *  Close the socket and exit
