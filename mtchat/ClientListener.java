@@ -40,7 +40,7 @@ public class ClientListener implements Runnable {
       if (serverInput != null) {
         thisData = serverText;
       } else {
-        // Connection was lost
+        // Connection was lost, do the following
         System.out.println("Closing connection for: " + connectionSock);
         connectionSock.close();
         //break;

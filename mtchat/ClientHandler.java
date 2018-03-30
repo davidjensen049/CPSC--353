@@ -39,7 +39,7 @@ public class ClientHandler implements Runnable {
       while (true) {
         // Get data sent from a client
         String clientText = clientInput.readLine();
-        if (clientText != null) {
+        if (clientText != null) { //if non null
           System.out.println("Received from a client: " + clientText);
           // Turn around and output this data
           // to all other clients except the one

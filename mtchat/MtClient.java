@@ -33,7 +33,7 @@ public class MtClient {
   public static void main(String[] args) {
     try {
       String hostname = "localhost";
-      int port = 7654;
+      int port = 7654; // port to connect
       Integer play = 1;
 
 

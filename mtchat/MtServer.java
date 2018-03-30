@@ -36,7 +36,7 @@ public class MtServer {
     // Wait for a connection from the client
     try {
       System.out.println("Waiting for client connections on port 7654.");
-      ServerSocket serverSock = new ServerSocket(7654);
+      ServerSocket serverSock = new ServerSocket(7654);// connect via port 7654
       // This is an infinite loop, the user will have to shut it down
       // using control-c
       while (true) {
