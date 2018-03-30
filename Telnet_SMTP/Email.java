@@ -20,8 +20,8 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.Arrays;
 
-//declairing variables, setting them to empty strings
-class Email {
+
+class Email { //declairing variables, setting them to empty strings
   public static void main(String[] argv) throws Exception {
     String sentence;
     String subject;

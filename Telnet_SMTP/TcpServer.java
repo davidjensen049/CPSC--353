@@ -8,7 +8,7 @@
 *  ID:  14508
 *  Email:  fahy@chapman.edu
 *  Date:  9/12/2017
-@  version: 2.0
+*@  version: 2.0
 */
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

@@ -20,7 +20,7 @@ import java.io.PrintWriter;
 
 import java.net.Socket;
 
-class TcpClient {
+class TcpClient { //Client
 
   public static void main(String[] argv) throws Exception {
 
