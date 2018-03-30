@@ -20,7 +20,7 @@ import java.net.DatagramPacket;
 
 import java.net.DatagramSocket;
 
-import java.net.InetAddress; //Importing librarys
+import java.net.InetAddress;
 
 class Blue { //Blue Client
   public static void main(String[] args) throws Exception {
