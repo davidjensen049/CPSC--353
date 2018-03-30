@@ -19,5 +19,5 @@ To package the client and server in Docker containers:
 	docker image build -t client . 
 
 * In the server subdirectory, to create the server Docker image use:
-	docker image build -t server .
+	docker image build -t server.
 
