@@ -1,0 +1,47 @@
+<html>
+<head>
+<link href="css/custom.css" rel="stylesheet" id="bootstrap-css">
+<link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="js/bootstrap//bootstrap.min.js"></script>
+<script src="js/buttons.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<div class="container">
+    	<div class="row">
+			<div class="col-md-4 col-md-offset-9">
+				<div class="panel panel-login">
+					<div class="panel-heading">
+						<div class="row">
+							<div class="col-xs-12">
+								<a href="#" class="active" id="login-form-link">Customers</a>
+							</div>
+						</div>
+						<hr>
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-lg-12">
+								<form id="login-form" action="php/customer.php" method="post" role="form" style="display: block;">
+									<div class="form-group">
+										<input type="text" name="cust" id="cust" tabindex="1" class="form-control" placeholder="Search" value="">
+									</div>
+									<div class="form-group">
+										<div class="row">
+											<div class="col-sm-12 col-sm-offset-3">
+												<input type="submit" name="search-submit" id="search-submit" tabindex="4" class="form-control btn btn-login" value="Search">
+											</div>
+										</div>
+									</div>
+									
+								</form>
+						
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>	
