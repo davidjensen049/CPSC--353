@@ -4,7 +4,6 @@
 
     $db = new SQLite3('../dbs/users.sqlite'); //connect to db
 
-    if(isset($_POST["login-submit"])){ //When login button is pressed, run this code
         $username = $_POST['username']; //record user from form
         $passname = $_POST['password'];  // record pass from form   
         $result = $db->query("select * from users where username = '$username' and password = '$passname'");//connect to query
@@ -14,7 +13,6 @@
             echo 'Login failed';
         } else {
             echo "<p>Logged in </p>";
-            echo "Hello, ", $username,"! ", $login;
+            echo "Hello, ", $username,"! ";
         }
-    }
     ?>
